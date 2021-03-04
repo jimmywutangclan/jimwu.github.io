@@ -1,0 +1,15 @@
+/*General format text will have-*/
+.Text {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;      
+}
+
+/*For very important text*/
+.Main {
+    font: 60px Arial, sans-serif;
+}
+
+/*Make text 25px*/
+#TwoFivePx {
+    font-size: 25px;
+}
