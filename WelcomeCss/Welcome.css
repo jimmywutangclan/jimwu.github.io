@@ -1,3 +1,7 @@
+.active {
+    text-decoration: 5px underline overline;
+}
+
 .app {
     display: flex;
     flex-direction: column;
@@ -34,7 +38,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    color: gray;
 }
 
 body {
@@ -44,14 +48,6 @@ body {
 
 p {
     font-size: 17px;
-}
-
-.active {
-    text-decoration: underline overline;
-}
-
-.active:hover {
-    text-decoration: underline overline;
 }
 
 footer {
