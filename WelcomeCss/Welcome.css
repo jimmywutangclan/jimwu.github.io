@@ -1,18 +1,12 @@
-body {
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .app {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: whitesmoke;
+    background-color: darkslategrey;
 }
 
 .header {
-    color: black;
-    background-color: aquamarine;
+    background-color: black;
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -20,12 +14,13 @@ body {
 
 .menu {
     display: flex;
+    font-size: 25px;
     padding-left: 10px;
-    border-bottom: 1px black solid;
+    border-bottom: 1px whitesmoke solid;
 }
 
-.body {
-    color: black;
+.section {
+    color: whitesmoke;
     flex: auto;
     flex-wrap: wrap;
     padding-left: 15px;
@@ -33,12 +28,22 @@ body {
 
 a {
     padding: 5px;
-    color: black;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font-size: 17px;
 }
 
 .active {
@@ -50,27 +55,42 @@ a:hover {
 }
 
 footer {
-    border-top: 1px black solid;
+    border-top: 1px whitesmoke solid;
+    padding-left: 15px;
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /*For very important text*/
 .Main {
-    font: 60px Arial, sans-serif;
+    font: 60px 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding-left: 15px;
+    color: yellow;
+}
+
+.Submain {
+    font: 30px 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding-left: 15px;
+    color: yellow;
 }
 
 /*Make text 25px*/
-#TwoFivePx {
+.MenuElement {
     font-size: 25px;
 }
 
 .Photo {
-    height: 350px;
+    height: 400px;
     width: 400px;
 }
   
 .Icon {
     height: 25px;
     width: 25px;
+    padding-right: 5px;
+    padding-bottom: -5px;
 }
 
 .Intro {
