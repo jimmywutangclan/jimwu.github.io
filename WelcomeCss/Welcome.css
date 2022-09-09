@@ -1,4 +1,5 @@
 @font-face { font-family: 'Trebuchet MSa'; font-weight: bold; src: url('../trebuc.ttf');}
+@font-face { font-family: 'CS'; font-weight: bold; src: url('../cs_regular.ttf');}
 
 
 .active {
@@ -61,14 +62,14 @@ footer {
 
 /*For very important text*/
 .Main {
-    font: 60px 'Trebuchet MSa', sans-serif;
+    font: 80px 'CS', sans-serif;
     margin: 0;
     padding-left: 15px;
     color: yellow;
 }
 
 .Submain {
-    font: 30px 'Trebuchet MSa', sans-serif;
+    font: 30px 'CS', sans-serif;
     margin: 0;
     padding-left: 15px;
     color: yellow;
